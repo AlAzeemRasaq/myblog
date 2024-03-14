@@ -22,4 +22,6 @@ Route::resource('/blog', PostsController::class);
 Auth::routes();
 
 Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
-
+Route::get('/discord', [PagesController::class, 'discord'])->name('discord');
+Route::get('/gallery', [PagesController::class, 'gallery'])->name('gallery');
+Route::get('/hardware', [PagesController::class, 'hardware'])->name('hardware');
