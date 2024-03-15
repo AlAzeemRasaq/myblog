@@ -32,16 +32,12 @@
 
         <div class="m-auto sm:m-auto text-left w-4/5 block">
             <h2 class="text-3xl font-extrabold text-gray-600">
-                Example of a Gamer Discord Server:
+                What does it feel like to be a gamer?
             </h2>
             
             <p class="py-8 text-gray-500 text-s">
-                This is the Razer Discord Server.
+                Well, anyone of any race, gender, sexuality, etc. can be a gamer. Being a gamer is pretty enjoyable, whether on PC or console (or sometimes mobile). There is also a faction online known as the PC master race, who compare themselves to console gamers, for bad reasons.
             </p>
-
-            <body>
-                <iframe src="https://discord.com/widget?id=342761229544194048&theme=dark" width="600" height="500" allowtransparency="true" frameborder="0"></iframe>
-            </body>
         </div>
     </div>
 
@@ -55,43 +51,25 @@
         </span>
     </div>
 
-    <div class="text-center py-15 bg-grey text-white">
+    <div class="text-center py-15 bg-blue-900 text-white font-extrabold text-4xl">
         <span class="uppercase text-s text-gray-400">
-            Blog
-        </span>
-
-        <h2 class="text-4xl font-bold py-10">
-            Map of Gamers
-        </h2>
-
-        <p class="m-auto w-4/5 text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque exercitationem saepe enim veritatis, eos temporibus quaerat facere consectetur qui.
-        </p>
-
-        <!-- Google Maps -->
-        <div id=map></div>
-        <script src=https://maps.googleapis.com/maps/api/js?key=AIzaSyA7t2cRC1VnrMEJq59mYMSyjwdmMejdoOE&loading=async&callback=loadMap&libraries=marker></script>       		
+            About Me
+        </span>     		
     </div>
 
     <div class="sm:grid grid-cols-2 w-4/5 m-auto">
-        <div class="flex bg-yellow-700 text-gray-100 pt-10">
+        <div class="flex bg-blue-500 rounded-lg text-gray-100 pt-10">
             <div class="m-auto pt-4 pb-16 sm:m-auto w-4/5 block">
-                <span class="uppercase text-xs">
-                    Map of Gamers
-                </span>
-
                 <h3 class="text-xl font-bold py-10">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas necessitatibus dolorum error culpa laboriosam. Enim voluptas earum repudiandae consequuntur ad? Expedita labore aspernatur facilis quasi ex? Nemo hic placeat et?
-                </h3>     		
-
-                <a href=""
-                    class="uppercase bg-transparent border-2 border-gray-100 text-gray-100 text-xs font-extrabold py-3 px-5 rounded-3xl">
-                    Find Out More
-                </a>
+                    As some of you may or may not know, I am a passionate gamer. In fact, I own a PS5 and gaming laptop. I've been fascinated with gaming ever since I was a kid.
+                </h3>
+                <h5>
+                    Image taken from Reddit
+                </h5>     		
             </div>
         </div>
         <div>
-            <img src="https://cdn.pixabay.com/photo/2014/05/03/01/03/laptop-336704_960_720.jpg" alt="">
+            <img src="https://i.redd.it/5s54k4ifzm1b1.jpg" alt="">
         </div>
     </div>
 @endsection
